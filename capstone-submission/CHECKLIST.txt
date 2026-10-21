@@ -1,0 +1,46 @@
+DEVOPS CAPSTONE SUBMISSION CHECKLIST
+
+PLANNING
+[ ] README.md public GitHub URL
+[ ] user-story.md public GitHub URL
+[ ] Planning-userstories-done.png
+[ ] planning-productbacklog-done.png
+[ ] planning-labels-done.png
+[ ] planning-kanban-done.png
+
+REST API
+[ ] setup.cfg public GitHub URL
+[ ] rest-techdebt-done.png
+[ ] read-accounts.png
+[ ] list-accounts.png
+[ ] update-accounts.png
+[ ] delete-accounts.png
+[ ] rest-create-done
+[ ] rest-list-done
+[ ] rest-read-done
+[ ] rest-update-done
+[ ] rest-delete-done
+
+CI AND SECURITY
+[ ] sprint2-plan.png
+[ ] ci-workflow-done
+[ ] ci-badge-done.png
+[ ] ci-kanban-done.png
+[ ] ci-build.yaml public GitHub URL
+[ ] init.py public GitHub URL
+[ ] security-code-done.png
+[ ] security-headers-done
+[ ] security-kanban-done.png
+
+DOCKER AND KUBERNETES
+[ ] sprint3-plan.png
+[ ] kube-app-output
+[ ] kube-docker-done.png
+[ ] Dockerfile public GitHub URL
+[ ] kube-images
+[ ] kube-deploy-accounts
+[ ] kube-kubernetes-done.png
+
+TEKTON AND CD
+[ ] pipelinerun.txt
+[ ] cd-pipeline-done.png

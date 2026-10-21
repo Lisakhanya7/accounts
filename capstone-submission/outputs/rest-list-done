@@ -1,0 +1,15 @@
+$ GET /accounts
+HTTP/1.1 200 OK
+Server: Werkzeug/3.1.9 Python/3.14.2
+Date: Wed, 21 Oct 2026 08:18:04 GMT
+Content-Type: application/json
+Content-Length: 294
+Permissions-Policy: browsing-topics=()
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Content-Security-Policy: default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self'
+Referrer-Policy: strict-origin-when-cross-origin
+Access-Control-Allow-Origin: http://localhost:3000
+Connection: close
+
+[{"email":"ada@example.com","id":2,"name":"Ada Lovelace"},{"email":"ada@example.com","id":3,"name":"Ada Lovelace"},{"email":"ada@example.com","id":4,"name":"Ada Lovelace"},{"email":"ada@example.com","id":5,"name":"Ada Lovelace"},{"email":"capstone@example.com","id":11,"name":"Capstone Test"}]
