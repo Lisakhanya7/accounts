@@ -1,0 +1,270 @@
+$ gh run view 39740844432 --log
+test	Set up job	﻿2026-10-22T07:29:33.5513746Z Current runner version: '2.338.0'
+test	Set up job	2026-10-22T07:29:33.5530952Z ##[group]Runner Image Provisioner
+test	Set up job	2026-10-22T07:29:33.5531582Z Hosted Compute Agent
+test	Set up job	2026-10-22T07:29:33.5531985Z Version: 20261015.610
+test	Set up job	2026-10-22T07:29:33.5532402Z Commit: 267fdb4e8bbec4ab5ea31367f3a00d5c480c7656
+test	Set up job	2026-10-22T07:29:33.5532868Z Build Date: 2026-10-14T17:06:54Z
+test	Set up job	2026-10-22T07:29:33.5533295Z Worker ID: {b84438ff-a9b7-4790-9b8e-3b50efeb04ea}
+test	Set up job	2026-10-22T07:29:33.5533765Z Region: centralus
+test	Set up job	2026-10-22T07:29:33.5534114Z Cloud: Azure
+test	Set up job	2026-10-22T07:29:33.5534481Z ##[endgroup]
+test	Set up job	2026-10-22T07:29:33.5535342Z ##[group]Operating System
+test	Set up job	2026-10-22T07:29:33.5535721Z Ubuntu
+test	Set up job	2026-10-22T07:29:33.5536089Z 24.04.5
+test	Set up job	2026-10-22T07:29:33.5536446Z LTS
+test	Set up job	2026-10-22T07:29:33.5536761Z ##[endgroup]
+test	Set up job	2026-10-22T07:29:33.5537156Z ##[group]Runner Image
+test	Set up job	2026-10-22T07:29:33.5537521Z Image: ubuntu-24.04
+test	Set up job	2026-10-22T07:29:33.5537897Z Version: 20261018.339.1
+test	Set up job	2026-10-22T07:29:33.5538536Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261018.339/images/ubuntu/Ubuntu2404-Readme.md
+test	Set up job	2026-10-22T07:29:33.5539629Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261018.339
+test	Set up job	2026-10-22T07:29:33.5540379Z ##[endgroup]
+test	Set up job	2026-10-22T07:29:33.5541241Z ##[group]GITHUB_TOKEN Permissions
+test	Set up job	2026-10-22T07:29:33.5542687Z Contents: read
+test	Set up job	2026-10-22T07:29:33.5543292Z Metadata: read
+test	Set up job	2026-10-22T07:29:33.5543690Z Packages: read
+test	Set up job	2026-10-22T07:29:33.5544027Z ##[endgroup]
+test	Set up job	2026-10-22T07:29:33.5545392Z Secret source: Actions
+test	Set up job	2026-10-22T07:29:33.5545927Z Cache mode: write
+test	Set up job	2026-10-22T07:29:33.5546392Z Prepare workflow directory
+test	Set up job	2026-10-22T07:29:33.5784576Z Prepare all required actions
+test	Set up job	2026-10-22T07:29:33.5817423Z Getting action download info
+test	Set up job	2026-10-22T07:29:33.7852430Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+test	Set up job	2026-10-22T07:29:33.8651835Z Download action repository 'actions/setup-python@v5' (SHA:a26af69be951a213d495a4c3e4e4022e16d87065)
+test	Set up job	2026-10-22T07:29:34.0514351Z Complete job name: test
+test	Check out repository	﻿2026-10-22T07:29:34.0980984Z ##[group]Run actions/checkout@v4
+test	Check out repository	2026-10-22T07:29:34.0981479Z with:
+test	Check out repository	2026-10-22T07:29:34.0981784Z   repository: Lisakhanya7/devops-capstone-project
+test	Check out repository	2026-10-22T07:29:34.0984090Z   token: ***
+test	Check out repository	2026-10-22T07:29:34.0984344Z   ssh-strict: true
+test	Check out repository	2026-10-22T07:29:34.0984602Z   ssh-user: git
+test	Check out repository	2026-10-22T07:29:34.0984865Z   persist-credentials: true
+test	Check out repository	2026-10-22T07:29:34.0985159Z   clean: true
+test	Check out repository	2026-10-22T07:29:34.0985431Z   sparse-checkout-cone-mode: true
+test	Check out repository	2026-10-22T07:29:34.0985741Z   fetch-depth: 1
+test	Check out repository	2026-10-22T07:29:34.0986000Z   fetch-tags: false
+test	Check out repository	2026-10-22T07:29:34.0986263Z   show-progress: true
+test	Check out repository	2026-10-22T07:29:34.0986525Z   lfs: false
+test	Check out repository	2026-10-22T07:29:34.0986776Z   submodules: false
+test	Check out repository	2026-10-22T07:29:34.0987050Z   set-safe-directory: true
+test	Check out repository	2026-10-22T07:29:34.0987359Z   allow-unsafe-pr-checkout: false
+test	Check out repository	2026-10-22T07:29:34.0987738Z ##[endgroup]
+test	Check out repository	2026-10-22T07:29:34.1660195Z Syncing repository: Lisakhanya7/devops-capstone-project
+test	Check out repository	2026-10-22T07:29:34.1661684Z ##[group]Getting Git version info
+test	Check out repository	2026-10-22T07:29:34.1662344Z Working directory is '/home/runner/work/devops-capstone-project/devops-capstone-project'
+test	Check out repository	2026-10-22T07:29:34.1663156Z [command]/usr/bin/git version
+test	Check out repository	2026-10-22T07:29:34.1701618Z git version 2.55.0
+test	Check out repository	2026-10-22T07:29:34.1714799Z ##[endgroup]
+test	Check out repository	2026-10-22T07:29:34.1724423Z Temporarily overriding HOME='/home/runner/work/_temp/e6ef2baa-f76c-48fa-a4a8-bafb8b967dee' before making global git config changes
+test	Check out repository	2026-10-22T07:29:34.1725848Z Adding repository directory to the temporary git global config as a safe directory
+test	Check out repository	2026-10-22T07:29:34.1727968Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/devops-capstone-project/devops-capstone-project
+test	Check out repository	2026-10-22T07:29:34.1779077Z Deleting the contents of '/home/runner/work/devops-capstone-project/devops-capstone-project'
+test	Check out repository	2026-10-22T07:29:34.1785884Z ##[group]Initializing the repository
+test	Check out repository	2026-10-22T07:29:34.1786802Z [command]/usr/bin/git init /home/runner/work/devops-capstone-project/devops-capstone-project
+test	Check out repository	2026-10-22T07:29:34.1937989Z hint: Using 'master' as the name for the initial branch. This default branch name
+test	Check out repository	2026-10-22T07:29:34.1939445Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+test	Check out repository	2026-10-22T07:29:34.1941069Z hint: to use in all of your new repositories, which will suppress this warning,
+test	Check out repository	2026-10-22T07:29:34.1942189Z hint: call:
+test	Check out repository	2026-10-22T07:29:34.1942593Z hint:
+test	Check out repository	2026-10-22T07:29:34.1943109Z hint: 	git config --global init.defaultBranch <name>
+test	Check out repository	2026-10-22T07:29:34.1943695Z hint:
+test	Check out repository	2026-10-22T07:29:34.1944247Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+test	Check out repository	2026-10-22T07:29:34.1945179Z hint: 'development'. The just-created branch can be renamed via this command:
+test	Check out repository	2026-10-22T07:29:34.1945928Z hint:
+test	Check out repository	2026-10-22T07:29:34.1946345Z hint: 	git branch -m <name>
+test	Check out repository	2026-10-22T07:29:34.1946805Z hint:
+test	Check out repository	2026-10-22T07:29:34.1947422Z hint: Disable this message with "git config set advice.defaultBranchName false"
+test	Check out repository	2026-10-22T07:29:34.1948624Z Initialized empty Git repository in /home/runner/work/devops-capstone-project/devops-capstone-project/.git/
+test	Check out repository	2026-10-22T07:29:34.1951155Z [command]/usr/bin/git remote add origin https://github.com/Lisakhanya7/devops-capstone-project
+test	Check out repository	2026-10-22T07:29:34.1996398Z ##[endgroup]
+test	Check out repository	2026-10-22T07:29:34.1997186Z ##[group]Disabling automatic garbage collection
+test	Check out repository	2026-10-22T07:29:34.1998602Z [command]/usr/bin/git config --local gc.auto 0
+test	Check out repository	2026-10-22T07:29:34.2039255Z ##[endgroup]
+test	Check out repository	2026-10-22T07:29:34.2039979Z ##[group]Setting up auth
+test	Check out repository	2026-10-22T07:29:34.2040829Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+test	Check out repository	2026-10-22T07:29:34.2077188Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+test	Check out repository	2026-10-22T07:29:34.2356961Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+test	Check out repository	2026-10-22T07:29:34.2392434Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+test	Check out repository	2026-10-22T07:29:34.2581140Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+test	Check out repository	2026-10-22T07:29:34.2617053Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+test	Check out repository	2026-10-22T07:29:34.2805758Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+test	Check out repository	2026-10-22T07:29:34.2847522Z ##[endgroup]
+test	Check out repository	2026-10-22T07:29:34.2848247Z ##[group]Fetching the repository
+test	Check out repository	2026-10-22T07:29:34.2854078Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +ede161a89063c25a89a5691aa3f06026d7f485e9:refs/remotes/origin/main
+test	Check out repository	2026-10-22T07:29:34.6020468Z From https://github.com/Lisakhanya7/devops-capstone-project
+test	Check out repository	2026-10-22T07:29:34.6022664Z  * [new ref]         ede161a89063c25a89a5691aa3f06026d7f485e9 -> origin/main
+test	Check out repository	2026-10-22T07:29:34.6026929Z ##[endgroup]
+test	Check out repository	2026-10-22T07:29:34.6028377Z ##[group]Determining the checkout info
+test	Check out repository	2026-10-22T07:29:34.6030012Z ##[endgroup]
+test	Check out repository	2026-10-22T07:29:34.6034893Z [command]/usr/bin/git sparse-checkout disable
+test	Check out repository	2026-10-22T07:29:34.6098378Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+test	Check out repository	2026-10-22T07:29:34.6139295Z ##[group]Checking out the ref
+test	Check out repository	2026-10-22T07:29:34.6141899Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+test	Check out repository	2026-10-22T07:29:34.6361825Z Switched to a new branch 'main'
+test	Check out repository	2026-10-22T07:29:34.6365954Z branch 'main' set up to track 'origin/main'.
+test	Check out repository	2026-10-22T07:29:34.6371957Z ##[endgroup]
+test	Check out repository	2026-10-22T07:29:34.6415146Z [command]/usr/bin/git log -1 --format=%H
+test	Check out repository	2026-10-22T07:29:34.6447764Z ede161a89063c25a89a5691aa3f06026d7f485e9
+test	Set up Python	﻿2026-10-22T07:29:34.6747308Z ##[group]Run actions/setup-python@v5
+test	Set up Python	2026-10-22T07:29:34.6748125Z with:
+test	Set up Python	2026-10-22T07:29:34.6748739Z   python-version: 3.12
+test	Set up Python	2026-10-22T07:29:34.6749434Z   check-latest: false
+test	Set up Python	2026-10-22T07:29:34.6756245Z   token: ***
+test	Set up Python	2026-10-22T07:29:34.6756883Z   update-environment: true
+test	Set up Python	2026-10-22T07:29:34.6757616Z   allow-prereleases: false
+test	Set up Python	2026-10-22T07:29:34.6758326Z   freethreaded: false
+test	Set up Python	2026-10-22T07:29:34.6758970Z ##[endgroup]
+test	Set up Python	2026-10-22T07:29:34.7733469Z ##[group]Installed versions
+test	Set up Python	2026-10-22T07:29:34.7799706Z (node:2097) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+test	Set up Python	2026-10-22T07:29:34.7802150Z (Use `node --trace-deprecation ...` to show where the warning was created)
+test	Set up Python	2026-10-22T07:29:34.7803336Z Successfully set up CPython (3.12.15)
+test	Set up Python	2026-10-22T07:29:34.7804562Z ##[endgroup]
+test	Install dependencies	﻿2026-10-22T07:29:34.7995122Z ##[group]Run python -m pip install --upgrade pip
+test	Install dependencies	2026-10-22T07:29:34.7996613Z ^[[36;1mpython -m pip install --upgrade pip^[[0m
+test	Install dependencies	2026-10-22T07:29:34.7997950Z ^[[36;1mpip install -r requirements.txt^[[0m
+test	Install dependencies	2026-10-22T07:29:34.8164665Z shell: /usr/bin/bash -e {0}
+test	Install dependencies	2026-10-22T07:29:34.8165484Z env:
+test	Install dependencies	2026-10-22T07:29:34.8166269Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+test	Install dependencies	2026-10-22T07:29:34.8167494Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+test	Install dependencies	2026-10-22T07:29:34.8168706Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+test	Install dependencies	2026-10-22T07:29:34.8169812Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+test	Install dependencies	2026-10-22T07:29:34.8171047Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+test	Install dependencies	2026-10-22T07:29:34.8172160Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+test	Install dependencies	2026-10-22T07:29:34.8173091Z ##[endgroup]
+test	Install dependencies	2026-10-22T07:29:35.3151581Z Requirement already satisfied: pip in /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages (26.2.1)
+test	Install dependencies	2026-10-22T07:29:35.4210707Z Collecting pip
+test	Install dependencies	2026-10-22T07:29:35.5006448Z   Downloading pip-26.2.2-py3-none-any.whl.metadata (4.6 kB)
+test	Install dependencies	2026-10-22T07:29:35.5208436Z Downloading pip-26.2.2-py3-none-any.whl (1.8 MB)
+test	Install dependencies	2026-10-22T07:29:35.6009436Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 39.2 MB/s  0:00:00
+test	Install dependencies	2026-10-22T07:29:35.6341003Z Installing collected packages: pip
+test	Install dependencies	2026-10-22T07:29:35.6342309Z   Attempting uninstall: pip
+test	Install dependencies	2026-10-22T07:29:35.6354099Z     Found existing installation: pip 26.2.1
+test	Install dependencies	2026-10-22T07:29:35.6660911Z     Uninstalling pip-26.2.1:
+test	Install dependencies	2026-10-22T07:29:35.6705638Z       Successfully uninstalled pip-26.2.1
+test	Install dependencies	2026-10-22T07:29:36.3859520Z Successfully installed pip-26.2.2
+test	Install dependencies	2026-10-22T07:29:36.7436210Z Collecting Flask<4.0,>=3.0 (from -r requirements.txt (line 1))
+test	Install dependencies	2026-10-22T07:29:36.8090973Z   Downloading flask-3.1.3-py3-none-any.whl.metadata (3.2 kB)
+test	Install dependencies	2026-10-22T07:29:36.8516710Z Collecting Flask-Cors<6.0,>=4.0 (from -r requirements.txt (line 2))
+test	Install dependencies	2026-10-22T07:29:36.8648322Z   Downloading flask_cors-5.0.1-py3-none-any.whl.metadata (961 bytes)
+test	Install dependencies	2026-10-22T07:29:36.8861901Z Collecting Flask-Talisman<2.0,>=1.1 (from -r requirements.txt (line 3))
+test	Install dependencies	2026-10-22T07:29:36.8989561Z   Downloading flask_talisman-1.1.0-py2.py3-none-any.whl.metadata (18 kB)
+test	Install dependencies	2026-10-22T07:29:36.9240385Z Collecting nose>=1.3.7 (from -r requirements.txt (line 4))
+test	Install dependencies	2026-10-22T07:29:36.9365190Z   Downloading nose-1.3.7-py3-none-any.whl.metadata (1.7 kB)
+test	Install dependencies	2026-10-22T07:29:37.2305524Z Collecting coverage>=7.0 (from -r requirements.txt (line 5))
+test	Install dependencies	2026-10-22T07:29:37.2436832Z   Downloading coverage-7.16.2-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (8.2 kB)
+test	Install dependencies	2026-10-22T07:29:37.2690843Z Collecting flake8>=7.0 (from -r requirements.txt (line 6))
+test	Install dependencies	2026-10-22T07:29:37.2820123Z   Downloading flake8-7.4.1-py2.py3-none-any.whl.metadata (3.8 kB)
+test	Install dependencies	2026-10-22T07:29:37.3111548Z Collecting pylint>=3.0 (from -r requirements.txt (line 7))
+test	Install dependencies	2026-10-22T07:29:37.3236640Z   Downloading pylint-4.1.3-py3-none-any.whl.metadata (12 kB)
+test	Install dependencies	2026-10-22T07:29:37.3460373Z Collecting blinker>=1.9.0 (from Flask<4.0,>=3.0->-r requirements.txt (line 1))
+test	Install dependencies	2026-10-22T07:29:37.3586265Z   Downloading blinker-1.9.0-py3-none-any.whl.metadata (1.6 kB)
+test	Install dependencies	2026-10-22T07:29:37.3806551Z Collecting click>=8.1.3 (from Flask<4.0,>=3.0->-r requirements.txt (line 1))
+test	Install dependencies	2026-10-22T07:29:37.3932465Z   Downloading click-8.5.0-py3-none-any.whl.metadata (2.6 kB)
+test	Install dependencies	2026-10-22T07:29:37.4132836Z Collecting itsdangerous>=2.2.0 (from Flask<4.0,>=3.0->-r requirements.txt (line 1))
+test	Install dependencies	2026-10-22T07:29:37.4257733Z   Downloading itsdangerous-2.2.0-py3-none-any.whl.metadata (1.9 kB)
+test	Install dependencies	2026-10-22T07:29:37.4468277Z Collecting jinja2>=3.1.2 (from Flask<4.0,>=3.0->-r requirements.txt (line 1))
+test	Install dependencies	2026-10-22T07:29:37.4594259Z   Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+test	Install dependencies	2026-10-22T07:29:37.5027907Z Collecting markupsafe>=2.1.1 (from Flask<4.0,>=3.0->-r requirements.txt (line 1))
+test	Install dependencies	2026-10-22T07:29:37.5159985Z   Downloading markupsafe-3.0.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.7 kB)
+test	Install dependencies	2026-10-22T07:29:37.5421365Z Collecting werkzeug>=3.1.0 (from Flask<4.0,>=3.0->-r requirements.txt (line 1))
+test	Install dependencies	2026-10-22T07:29:37.5550870Z   Downloading werkzeug-3.1.9-py3-none-any.whl.metadata (4.1 kB)
+test	Install dependencies	2026-10-22T07:29:37.5778136Z Collecting mccabe<0.8.0,>=0.7.0 (from flake8>=7.0->-r requirements.txt (line 6))
+test	Install dependencies	2026-10-22T07:29:37.5904020Z   Downloading mccabe-0.7.0-py2.py3-none-any.whl.metadata (5.0 kB)
+test	Install dependencies	2026-10-22T07:29:37.6124194Z Collecting pycodestyle<2.16.0,>=2.15.0 (from flake8>=7.0->-r requirements.txt (line 6))
+test	Install dependencies	2026-10-22T07:29:37.6252118Z   Downloading pycodestyle-2.15.0-py2.py3-none-any.whl.metadata (4.5 kB)
+test	Install dependencies	2026-10-22T07:29:37.6482523Z Collecting pyflakes<4.1.0,>=4.0.0 (from flake8>=7.0->-r requirements.txt (line 6))
+test	Install dependencies	2026-10-22T07:29:37.6610415Z   Downloading pyflakes-4.0.3-py2.py3-none-any.whl.metadata (3.7 kB)
+test	Install dependencies	2026-10-22T07:29:37.6905508Z Collecting astroid<=4.4,>=4.3.4 (from pylint>=3.0->-r requirements.txt (line 7))
+test	Install dependencies	2026-10-22T07:29:37.7034477Z   Downloading astroid-4.3.4-py3-none-any.whl.metadata (4.4 kB)
+test	Install dependencies	2026-10-22T07:29:37.7328842Z Collecting dill>=0.3.6 (from pylint>=3.0->-r requirements.txt (line 7))
+test	Install dependencies	2026-10-22T07:29:37.7458210Z   Downloading dill-0.4.1-py3-none-any.whl.metadata (10 kB)
+test	Install dependencies	2026-10-22T07:29:37.7816813Z Collecting isort!=5.13,<10,>=5 (from pylint>=3.0->-r requirements.txt (line 7))
+test	Install dependencies	2026-10-22T07:29:37.7944246Z   Downloading isort-9.0.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (11 kB)
+test	Install dependencies	2026-10-22T07:29:37.8218758Z Collecting platformdirs>=2.2 (from pylint>=3.0->-r requirements.txt (line 7))
+test	Install dependencies	2026-10-22T07:29:37.8344729Z   Downloading platformdirs-4.13.5-py3-none-any.whl.metadata (5.5 kB)
+test	Install dependencies	2026-10-22T07:29:37.8575604Z Collecting tomlkit>=0.10.1 (from pylint>=3.0->-r requirements.txt (line 7))
+test	Install dependencies	2026-10-22T07:29:37.8702886Z   Downloading tomlkit-0.15.2-py3-none-any.whl.metadata (3.4 kB)
+test	Install dependencies	2026-10-22T07:29:37.8905185Z Collecting mypy-extensions>=1.1.0 (from isort!=5.13,<10,>=5->pylint>=3.0->-r requirements.txt (line 7))
+test	Install dependencies	2026-10-22T07:29:37.9031148Z   Downloading mypy_extensions-1.1.0-py3-none-any.whl.metadata (1.1 kB)
+test	Install dependencies	2026-10-22T07:29:37.9201137Z Downloading flask-3.1.3-py3-none-any.whl (103 kB)
+test	Install dependencies	2026-10-22T07:29:37.9502421Z Downloading flask_cors-5.0.1-py3-none-any.whl (11 kB)
+test	Install dependencies	2026-10-22T07:29:37.9730937Z Downloading flask_talisman-1.1.0-py2.py3-none-any.whl (18 kB)
+test	Install dependencies	2026-10-22T07:29:37.9875590Z Downloading nose-1.3.7-py3-none-any.whl (154 kB)
+test	Install dependencies	2026-10-22T07:29:38.0128877Z Downloading coverage-7.16.2-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (258 kB)
+test	Install dependencies	2026-10-22T07:29:38.0309660Z Downloading flake8-7.4.1-py2.py3-none-any.whl (57 kB)
+test	Install dependencies	2026-10-22T07:29:38.0450428Z Downloading mccabe-0.7.0-py2.py3-none-any.whl (7.3 kB)
+test	Install dependencies	2026-10-22T07:29:38.0591073Z Downloading pycodestyle-2.15.0-py2.py3-none-any.whl (31 kB)
+test	Install dependencies	2026-10-22T07:29:38.0733435Z Downloading pyflakes-4.0.3-py2.py3-none-any.whl (66 kB)
+test	Install dependencies	2026-10-22T07:29:38.0876772Z Downloading pylint-4.1.3-py3-none-any.whl (588 kB)
+test	Install dependencies	2026-10-22T07:29:38.1029788Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 589.0/589.0 kB 27.8 MB/s  0:00:00
+test	Install dependencies	2026-10-22T07:29:38.1155804Z Downloading astroid-4.3.4-py3-none-any.whl (288 kB)
+test	Install dependencies	2026-10-22T07:29:38.1307577Z Downloading isort-9.0.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (1.7 MB)
+test	Install dependencies	2026-10-22T07:29:38.1474082Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB 95.2 MB/s  0:00:00
+test	Install dependencies	2026-10-22T07:29:38.1598522Z Downloading blinker-1.9.0-py3-none-any.whl (8.5 kB)
+test	Install dependencies	2026-10-22T07:29:38.1740571Z Downloading click-8.5.0-py3-none-any.whl (125 kB)
+test	Install dependencies	2026-10-22T07:29:38.1938282Z Downloading dill-0.4.1-py3-none-any.whl (120 kB)
+test	Install dependencies	2026-10-22T07:29:38.2082526Z Downloading itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+test	Install dependencies	2026-10-22T07:29:38.2224347Z Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+test	Install dependencies	2026-10-22T07:29:38.2368395Z Downloading markupsafe-3.0.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (22 kB)
+test	Install dependencies	2026-10-22T07:29:38.2507738Z Downloading mypy_extensions-1.1.0-py3-none-any.whl (5.0 kB)
+test	Install dependencies	2026-10-22T07:29:38.2648445Z Downloading platformdirs-4.13.5-py3-none-any.whl (32 kB)
+test	Install dependencies	2026-10-22T07:29:38.2789795Z Downloading tomlkit-0.15.2-py3-none-any.whl (52 kB)
+test	Install dependencies	2026-10-22T07:29:38.2933223Z Downloading werkzeug-3.1.9-py3-none-any.whl (228 kB)
+test	Install dependencies	2026-10-22T07:29:38.3456917Z Installing collected packages: nose, Flask-Talisman, tomlkit, pyflakes, pycodestyle, platformdirs, mypy-extensions, mccabe, markupsafe, itsdangerous, dill, coverage, click, blinker, astroid, werkzeug, jinja2, isort, flake8, pylint, Flask, Flask-Cors
+test	Install dependencies	2026-10-22T07:29:39.3629224Z 
+test	Install dependencies	2026-10-22T07:29:39.3645355Z Successfully installed Flask-3.1.3 Flask-Cors-5.0.1 Flask-Talisman-1.1.0 astroid-4.3.4 blinker-1.9.0 click-8.5.0 coverage-7.16.2 dill-0.4.1 flake8-7.4.1 isort-9.0.2 itsdangerous-2.2.0 jinja2-3.1.6 markupsafe-3.0.4 mccabe-0.7.0 mypy-extensions-1.1.0 nose-1.3.7 platformdirs-4.13.5 pycodestyle-2.15.0 pyflakes-4.0.3 pylint-4.1.3 tomlkit-0.15.2 werkzeug-3.1.9
+test	Run tests	﻿2026-10-22T07:29:39.4253851Z ##[group]Run python -m unittest discover -s tests -v
+test	Run tests	2026-10-22T07:29:39.4254145Z ^[[36;1mpython -m unittest discover -s tests -v^[[0m
+test	Run tests	2026-10-22T07:29:39.4302256Z shell: /usr/bin/bash -e {0}
+test	Run tests	2026-10-22T07:29:39.4302418Z env:
+test	Run tests	2026-10-22T07:29:39.4302583Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+test	Run tests	2026-10-22T07:29:39.4302856Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+test	Run tests	2026-10-22T07:29:39.4303104Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+test	Run tests	2026-10-22T07:29:39.4303330Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+test	Run tests	2026-10-22T07:29:39.4303564Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+test	Run tests	2026-10-22T07:29:39.4303794Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+test	Run tests	2026-10-22T07:29:39.4303990Z ##[endgroup]
+test	Run tests	2026-10-22T07:29:39.6066020Z test_create_list_read_update_delete (test_accounts.AccountsApiTests.test_create_list_read_update_delete) ... ok
+test	Run tests	2026-10-22T07:29:39.6087241Z test_create_requires_name (test_accounts.AccountsApiTests.test_create_requires_name) ... ok
+test	Run tests	2026-10-22T07:29:39.6106657Z test_root (test_accounts.AccountsApiTests.test_root) ... ok
+test	Run tests	2026-10-22T07:29:39.6107144Z 
+test	Run tests	2026-10-22T07:29:39.6107297Z ----------------------------------------------------------------------
+test	Run tests	2026-10-22T07:29:39.6107659Z Ran 3 tests in 0.029s
+test	Run tests	2026-10-22T07:29:39.6107808Z 
+test	Run tests	2026-10-22T07:29:39.6107883Z OK
+test	Check code style	﻿2026-10-22T07:29:39.6306472Z ##[group]Run python -m pip install flake8
+test	Check code style	2026-10-22T07:29:39.6306713Z ^[[36;1mpython -m pip install flake8^[[0m
+test	Check code style	2026-10-22T07:29:39.6306877Z ^[[36;1mflake8 service run.py^[[0m
+test	Check code style	2026-10-22T07:29:39.6352968Z shell: /usr/bin/bash -e {0}
+test	Check code style	2026-10-22T07:29:39.6353122Z env:
+test	Check code style	2026-10-22T07:29:39.6353280Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+test	Check code style	2026-10-22T07:29:39.6353530Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+test	Check code style	2026-10-22T07:29:39.6353777Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+test	Check code style	2026-10-22T07:29:39.6353993Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+test	Check code style	2026-10-22T07:29:39.6354211Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+test	Check code style	2026-10-22T07:29:39.6354432Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+test	Check code style	2026-10-22T07:29:39.6354621Z ##[endgroup]
+test	Check code style	2026-10-22T07:29:39.8435155Z Requirement already satisfied: flake8 in /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages (7.4.1)
+test	Check code style	2026-10-22T07:29:39.8444667Z Requirement already satisfied: mccabe<0.8.0,>=0.7.0 in /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages (from flake8) (0.7.0)
+test	Check code style	2026-10-22T07:29:39.8448363Z Requirement already satisfied: pycodestyle<2.16.0,>=2.15.0 in /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages (from flake8) (2.15.0)
+test	Check code style	2026-10-22T07:29:39.8451996Z Requirement already satisfied: pyflakes<4.1.0,>=4.0.0 in /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages (from flake8) (4.0.3)
+test	Post Set up Python	﻿2026-10-22T07:29:40.0158647Z Post job cleanup.
+test	Post Set up Python	2026-10-22T07:29:40.0923428Z (node:2190) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+test	Post Set up Python	2026-10-22T07:29:40.0923925Z (Use `node --trace-deprecation ...` to show where the warning was created)
+test	Post Check out repository	﻿2026-10-22T07:29:40.1096824Z Post job cleanup.
+test	Post Check out repository	2026-10-22T07:29:40.1697239Z [command]/usr/bin/git version
+test	Post Check out repository	2026-10-22T07:29:40.1731302Z git version 2.55.0
+test	Post Check out repository	2026-10-22T07:29:40.1756205Z Temporarily overriding HOME='/home/runner/work/_temp/ddb991f9-7c09-4fed-b0d1-e8b5418b595b' before making global git config changes
+test	Post Check out repository	2026-10-22T07:29:40.1757013Z Adding repository directory to the temporary git global config as a safe directory
+test	Post Check out repository	2026-10-22T07:29:40.1759706Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/devops-capstone-project/devops-capstone-project
+test	Post Check out repository	2026-10-22T07:29:40.1794251Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+test	Post Check out repository	2026-10-22T07:29:40.1823628Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+test	Post Check out repository	2026-10-22T07:29:40.2069988Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+test	Post Check out repository	2026-10-22T07:29:40.2070802Z http.https://github.com/.extraheader
+test	Post Check out repository	2026-10-22T07:29:40.2080481Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+test	Post Check out repository	2026-10-22T07:29:40.2121511Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+test	Post Check out repository	2026-10-22T07:29:40.2327832Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+test	Post Check out repository	2026-10-22T07:29:40.2365478Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+test	Complete job	﻿2026-10-22T07:29:40.2710602Z Cleaning up orphan processes
+test	Complete job	2026-10-22T07:29:40.2921351Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-python@v5. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

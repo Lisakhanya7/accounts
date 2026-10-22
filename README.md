@@ -48,7 +48,7 @@ account ID does not exist.
 Run the test suite and lint check used by GitHub Actions:
 
 ```bash
-python -m unittest discover -s tests -v
+nosetests
 flake8 service run.py
 ```
 
