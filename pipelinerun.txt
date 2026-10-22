@@ -1,0 +1,2 @@
+PipelineRun: 
+bash: tkn: command not found
